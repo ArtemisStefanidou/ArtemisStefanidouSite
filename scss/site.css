@@ -2,11 +2,15 @@ body{
     background: #c4c4c7 ;
 }
 
+#header li{
+    list-style-type: none;
+    color: #4d004d;
+}
+
 #header{
     background-color:#d9b3ff;
     color: #4d004d;
-    text-align: center;
-    padding : 6px;
+    padding : 2px;
 }
 
 #midle{
@@ -54,7 +58,8 @@ h4.text-center{
 }
 
 .social-menu ul li .fa{
-
+    
+    text-align: center;
     font-size:30px;
     line-height: 60px;
     transition: .6s;
@@ -63,6 +68,7 @@ h4.text-center{
 }
 
 .social-menu ul li a{
+    text-align: center;
     position: relative;
     display: block;
     width: 60px;
@@ -77,6 +83,24 @@ h4.text-center{
 .social-menu ul li a:hover{
     transform:translate(0,-10px);
 }
+
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
 
 /*#container{
 
