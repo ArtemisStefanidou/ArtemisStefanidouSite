@@ -89,14 +89,14 @@ h4.text-center{
 }
 
 .topnav{
-    background-color: #333;
+    background-color:#d9b3ff;
     overflow: hidden;
 }
 
 .topnav a{
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #751679;
     text-align: left;
     padding: 14px 50px;
     text-decoration: none;
