@@ -2,6 +2,13 @@ body{
     background:#e4e2e5;
 }
 
+#edu{
+    background-image: url(../images/dance.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;/*για να καλύψει ολο το div που είμαστε */
+    padding: 200px 100px;
+}
+
 #header li{
     list-style-type: none;
     color: #4d004d;
@@ -103,12 +110,6 @@ h4.text-center{
     text-decoration: none;
     font-size: 17px;
 }
-
-#midleedu{
-    background-image: url(../images/dance.jpg);
-}
-
-
 
 
 /*#container{
