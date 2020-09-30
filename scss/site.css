@@ -1,5 +1,5 @@
 body{
-    background: #c4c4c7 ;
+    background:#e4e2e5;
 }
 
 #header li{
@@ -33,9 +33,10 @@ h4.text-center{
 #footer{
     clear: both;
     text-align:center;
-    padding:10px;
-    background: #e0ebeb ;
+    padding:30px;
+    background:#e4e2e5 ;
     color: #4d004d;
+    margin: auto;
 }
 
 .media{
@@ -51,14 +52,14 @@ h4.text-center{
     text-align: center;
     position: absolute;
     padding:auto;
-    margin:auto;
+    margin:auto; /*το κενο που αφήνει δεξια αριστερα πανω κατω απο το παραθυρο που φτιαχνεις*/
     display: flex;
 }
 
 .social-menu ul li{
     text-align: center;
     list-style: none;
-    margin:0 15px;
+    margin:0 30px;
 }
 
 .social-menu ul li .fa{
@@ -101,6 +102,10 @@ h4.text-center{
     padding: 14px 50px;
     text-decoration: none;
     font-size: 17px;
+}
+
+#midleedu{
+    background-image: url(../images/dance.jpg);
 }
 
 
