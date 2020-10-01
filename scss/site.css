@@ -4,10 +4,27 @@ body{
 
 #edu{
     background-image: url(../images/dance.jpg);
+    background-position: 0px -60px ;
+    /*left top*/
     background-repeat: no-repeat;
     background-size: cover;/*για να καλύψει ολο το div που είμαστε */
-    padding: 200px 100px;
+    padding: 25px 100px 25px;/*για το που θα ειναι τα row cols*/
 }
+
+ #edu li li{
+     list-style-type:lower-latin;
+ }
+
+ol{
+    background: #ffffff;
+    padding: 20px 21px ;
+}
+
+#edu p{
+    color: #4d004d;
+}
+
+
 
 #header li{
     list-style-type: none;
