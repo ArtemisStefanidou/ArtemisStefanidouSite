@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Sacramento&family=Sansita+Swashed:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,12 +11,19 @@ body,html{
     height: 100%;
     width:100%;
     background-color: rgb(215, 193, 235);
-    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Roboto Slab', serif;
     
 }
 
+.navbar-brand{
+    font-family: 'Sacramento', cursive;
+}
 .navbar{
     padding: .6rem;
+}
+
+.nav-link,h3,h2{
+    font-family: 'Sansita Swashed', cursive;
 }
 
 /*.carousel-inner{
