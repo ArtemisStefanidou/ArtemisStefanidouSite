@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+
+    height: 100%;
+    width:100%;
+    background-color: rgb(215, 193, 235);
+    font-family: 'Sansita Swashed', cursive;
+    
+}
+
+.navbar{
+    padding: .6rem;
+}
+
+/*.carousel-inner{
+
+    display: flex;
+    flex-direction: row;/*να ειναι ολα το ενα κατω απο το αλλο δλδ σαν στηλες
+    justify-content:center;
+    align-items: left;
+    align-content: center;
+    height: 100%;
+    
+}*/
+
+/* .item{
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+} */
+
+.col-lg-5,.col-lg-7{
+    display: flex;
+    flex-direction:column;/*να ειναι ολα το ενα κατω απο το αλλο δλδ σαν στηλες*/
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+}
+
+#myNavbar{
+    text-align: center;
+}
+
+.social-menu li{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 50%;
+    transition: .5s;
+    background-color: black;
+}
