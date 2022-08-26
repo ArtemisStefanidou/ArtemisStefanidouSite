@@ -9,7 +9,7 @@ body{
 }
 
 #edu{
-    background-image: url(../images/dance.jpg);
+    background-image: url(../img/dance.jpg);
     background-position: 0px -60px ;
     /*left top*/
     background-repeat: no-repeat;
